@@ -1,23 +1,23 @@
 {
-  "store_id": 1201,
-  "name": "maceladourada",
   "domain": "maceladourada.netlify.app",
-  "short_name": "maceladourada",
-  "description": "maceladourada",
-  "primary_color": "#222831",
-  "secondary_color": "#393e46",
-  "bg_color": "#ffffff",
+  "currency_symbol": "R$",
+  "primary_color": "#007062",
   "theme": {
-    "bootswatch": "_",
-    "custom": "_"
+    "bootswatch": "simplex",
+    "custom": "clean-white"
   },
+  "bg_color": "#ffffff",
   "logo": "/img/uploads/logo.png",
-  "mini_logo": "",
-  "icon": "/img/icon.png",
-  "large_icon": "/img/large-icon.png",
-  "favicon": "/img/uploads/favicon.png",
+  "name": "maceladourada",
+  "short_name": "maceladourada",
   "lang": "pt_br",
   "currency": "BRL",
-  "currency_symbol": "R$",
-  "country_code": "BR"
+  "mini_logo": "",
+  "favicon": "/img/uploads/favicon.png",
+  "country_code": "BR",
+  "secondary_color": "#d19e3c",
+  "icon": "/img/uploads/favicon.png",
+  "store_id": 1201,
+  "description": "maceladourada",
+  "large_icon": "/img/uploads/favicon.png"
 }
