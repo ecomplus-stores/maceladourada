@@ -15,7 +15,9 @@
         {
           "start": "2021-01-11T18:42:05.211Z",
           "end": "2030-12-31T18:42:12.375Z",
-          "img": "/img/uploads/baixe-app.png"
+          "img": "/img/uploads/app.png",
+          "mobile_img": "/img/uploads/baixe-app-celular.png",
+          "link": "https://www.subscribepage.com/aplicativo_maceladourada"
         }
       ]
     },
