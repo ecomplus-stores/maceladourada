@@ -1,7 +1,7 @@
 {
   "description": {
     "title": "Atendimento",
-    "text": "<ul>  <strong>Vitória da Conquista - Matriz</strong> <br/> <i class=\"fa fa-phone\"></i>(77) 3423-8646 | <i class=\"fab fa-whatsapp\"></i>(77) 9.9943-0418 <strong>Vitória da Conquista - Loja II</strong> <br/> <i class=\"fa fa-phone\"></i>(77) 3423-8640 | <i class=\"fab fa-whatsapp\"></i> (77) 9.9943-0416 <strong>Itapetinga</strong> <br/> <i class=\"fa fa-phone\"></i>(77) 3261-3222 | <i class=\"fab fa-whatsapp\"></i>(77) 99943-0116 <strong>Jequié</strong> <br/> <i class=\"fa fa-phone\"></i>(73) 3526-9555 | <i class=\"fab fa-whatsapp\"></i>(73) 99167-4549 <strong>Ipiaú</strong> <br/> <i class=\"fa fa-phone\"></i>(73) 3531-3171 | <i class=\"fab fa-whatsapp\"></i>(73) 99101-9201 <strong>Jaguaquara</strong> <br/> <i class=\"fa fa-phone\"></i>(73) 3534-1599 | <i class=\"fab fa-whatsapp\"></i>(73) 98856-1814  </ul>"
+    "text": "<strong>Vitória da Conquista - Matriz</strong> <br/> <i class=\"fa fa-phone\"></i>(77) 3423-8646 | <i class=\"fab fa-whatsapp\"></i>(77) 9.9943-0418 <strong><br>Vitória da Conquista Loja II</strong> <br/> <i class=\"fa fa-phone\"></i>(77) 3423-8640 | <i class=\"fab fa-whatsapp\"></i> (77) 9.9943-0416 <strong><br>Itapetinga</strong> <br/> <i class=\"fa fa-phone\"></i>(77) 3261-3222 | <i class=\"fab fa-whatsapp\"></i>(77) 99943-0116 <strong><br>Jequié</strong> <br/> <i class=\"fa fa-phone\"></i>(73) 3526-9555 | <i class=\"fab fa-whatsapp\"></i>(73) 99167-4549 <strong><br>Ipiaú</strong> <br/> <i class=\"fa fa-phone\"></i>(73) 3531-3171 | <i class=\"fab fa-whatsapp\"></i>(73) 99101-9201 <strong><br>Jaguaquara</strong> <br/> <i class=\"fa fa-phone\"></i>(73) 3534-1599 | <i class=\"fab fa-whatsapp\"></i>(73) 98856-1814 "
   },
   "links_1": {
     "list_pages": true,
