@@ -24,6 +24,10 @@
       "collection_id": null,
       "limit": 12,
       "page": 1
+    },
+    {
+      "type": "blog",
+      "enabled": true
     }
   ]
 }
