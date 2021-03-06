@@ -2,5 +2,12 @@
   "title": "Dúvidas frequentes",
   "meta_title": "Dúvidas frequentes",
   "meta_description": "Dúvidas frequentes",
-  "body": "### Lorem ipsum dolor sit amet"
+  "body": "**Qual a forma de pagamento?**\\\nCartão de Crédito, Boleto e Depósito/Transferência Bancária.\n\n**Qual a forma de envio?**\\\nCorreios e Transportadora.\n\n**É possível retirar o pedido no local?**\\\nSim, você pode retirar o seu pedido em uma de [nossas lojas](https://maceladourada.com.br/nossas-lojas).\n\n**Posso trocar meu pedido?**\\\nSim. Você tem 7 dias após o recebimento do pedido para realizar a troca;\n\n**Posso cancelar um pedido realizado?**\\\nSim. Se o pedido ainda não tiver sido entregue basta solicitar o cancelamento com nosso suporte. Caso a entrega esteja em andamento basta recusá-la (no caso dos Correios) e avisar nossa equipe.\n\n**Ainda tem dúvidas?**\\\n[Clique aqui](https://linklist.bio/mcdlojas) para entrar em contato com nossa equipe. Será um prazer te atender!",
+  "sections": [
+    {
+      "type": "page-title",
+      "title": "Dúvidas frequentes",
+      "description": "Dúvidas frequentes"
+    }
+  ]
 }
