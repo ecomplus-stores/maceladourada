@@ -2,5 +2,12 @@
   "title": "Termos de serviço",
   "meta_title": "Termos de serviço",
   "meta_description": "Termos de serviço",
-  "body": "### Lorem ipsum dolor sit amet"
+  "body": "**Sobre Cupom de Desconto:** O valor do desconto não é cumulativo com outras promoções ou cupom de desconto, o sistema acatará automaticamente o desconto que for maior.;\n\n**Sobre Brinde (produto grátis):** Promoção válida por tempo limitado e enquanto durarem os estoques.\n\n**Sobre Frete Grátis:** Promoção válida para um valor mínimo de compra que pode variar de acordo com a oferta e por tempo limitado.\n\n**Sobre Prazo de Entrega:** As datas de entrega são uma estimativa, e podem haver atrasos devido à fatores externos, tais como chuvas em excesso, áreas de risco extremo, zonas rurais, entre outros.",
+  "sections": [
+    {
+      "type": "page-title",
+      "title": "Termos de serviço",
+      "description": "Termos de serviço"
+    }
+  ]
 }
