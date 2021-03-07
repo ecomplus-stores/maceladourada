@@ -23,14 +23,16 @@
       "shuffle": true,
       "collection_id": null,
       "limit": 12,
-      "page": 1
+      "page": 1,
+      "sort": "sales"
     },
     {
       "type": "collection-shelf",
       "shuffle": true,
       "limit": "",
       "page": "",
-      "title": "Mais vendidos ✅"
+      "title": "Mais vendidos ✅",
+      "sort": "sales"
     },
     {
       "type": "blog",
