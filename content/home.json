@@ -15,6 +15,34 @@
       ]
     },
     {
+      "type": "banners-grid",
+      "banners": [
+        {
+          "img": "/img/uploads/protecao_e_imunidade.png",
+          "link": "https://maceladourada.netlify.app/imunidade"
+        },
+        {
+          "img": "/img/uploads/saude_e_bem_estar.png",
+          "link": "https://maceladourada.netlify.app/saude"
+        },
+        {
+          "img": "/img/uploads/florais.png"
+        },
+        {
+          "img": "/img/uploads/manipulados.png",
+          "link": "https://maceladourada.netlify.app/manipulados"
+        },
+        {
+          "img": "/img/uploads/cabelos.png",
+          "link": "https://maceladourada.netlify.app/crescimento-capilar"
+        },
+        {
+          "img": "/img/uploads/emagrecimento.png",
+          "link": "https://maceladourada.netlify.app/emagrecedores"
+        }
+      ]
+    },
+    {
       "type": "info-bar",
       "enabled": true
     },
