@@ -1,3 +1,6 @@
+[build]
+  publish = "publish"
+
 [[redirects]]
   from = "/*"
   to = "/404?url=:splat"
