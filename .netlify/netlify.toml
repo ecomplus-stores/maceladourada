@@ -1,9 +1,10 @@
 [build]
   publish = "publish"
+  functions = "functions-zip"
 
 [[redirects]]
   from = "/*"
-  to = "/404?url=:splat"
+  to = "/.netlify/functions/ssr?slug=:splat"
   status = 200
 
 [[headers]]
