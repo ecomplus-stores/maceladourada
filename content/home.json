@@ -9,15 +9,15 @@
         {
           "start": "2030-12-31T18:41:03.815Z",
           "end": "",
-          "img": "/img/uploads/baixe-o-aplicaivo-macela.png",
-          "mobile_img": "/img/uploads/baixe-app-mobile.png"
+          "img": "https://res.cloudinary.com/maceladourada/image/upload/v1617974588/baixe-app-mobile_wdzw09.png",
+          "mobile_img": "https://res.cloudinary.com/maceladourada/image/upload/v1617974587/baixe-o-aplicaivo-macela_bwhzhk.png"
         },
         {
           "start": "2030-12-31T18:01:53.986Z",
           "end": "",
-          "img": "/img/uploads/mais-saude-articulacao.png",
+          "img": "https://res.cloudinary.com/maceladourada/image/upload/v1617974597/mais-saude-articulacao_izx8z8.png",
           "link": "https://maceladourada.netlify.app/articulacoes-e-dores",
-          "mobile_img": "/img/uploads/mais-saude-articulacao-mobile.png"
+          "mobile_img": "https://res.cloudinary.com/maceladourada/image/upload/v1617974597/mais-saude-articulacao-mobile_bkdwk0.png"
         }
       ]
     },
@@ -25,23 +25,23 @@
       "type": "banners-grid",
       "banners": [
         {
-          "img": "/img/uploads/protecao_e_imunidade.png",
+          "img": "https://res.cloudinary.com/maceladourada/image/upload/v1617974606/protecao_e_imunidade_q22kyt.png",
           "link": "https://maceladourada.netlify.app/imunidade"
         },
         {
-          "img": "/img/uploads/saude_e_bem_estar.png",
+          "img": "https://res.cloudinary.com/maceladourada/image/upload/v1617974613/saude_e_bem_estar_tnjtxf.png",
           "link": "https://maceladourada.netlify.app/saude"
         },
         {
-          "img": "/img/uploads/florais.png",
+          "img": "https://res.cloudinary.com/maceladourada/image/upload/v1617974585/florais_bmzahq.png",
           "link": "https://maceladourada.netlify.app/terapia-floral"
         },
         {
-          "img": "/img/uploads/cabelos.png",
+          "img": "https://res.cloudinary.com/maceladourada/image/upload/v1617974564/cabelos_o0loii.png",
           "link": "https://maceladourada.netlify.app/crescimento-capilar"
         },
         {
-          "img": "/img/uploads/emagrecimento.png",
+          "img": "https://res.cloudinary.com/maceladourada/image/upload/v1617974581/emagrecimento_rp1r4u.png",
           "link": "https://maceladourada.netlify.app/emagrecedores"
         }
       ]
@@ -76,7 +76,7 @@
     },
     {
       "type": "custom-html",
-      "html": "<H2 style=\"text-align: center\"><a href=\"/blog\">Confira nosso Blog:</a></H2>\n<div class=\"blog my-4 my-lg-5\">\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"col col-md-6 col-lg-4\">\n                <div class=\"card\"><a href=\"/posts/como-tratar-o-esgotamento-fisico-e-mental\"><img\n                            src=\"img/uploads/uploads/como-tratar-o-esgotamento-fisico-e-mental-.jpg\" class=\"card-img-top\" alt=\"Como tratar o esgotamento físico e mental\"></a>\n                    <div class=\"card-body\">\n                        <h5 class=\"card-title\"><a href=\"/posts/como-tratar-o-esgotamento-fisico-e-mental\">Como tratar o esgotamento físico e mental</a></h5>\n                        <p class=\"card-text\"></p>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col col-md-6 col-lg-4\">\n                <div class=\"card\"><a href=\"/posts/modulacao-intestinal-entrevista-exclusiva-com-o-murilo-pereira\"><img src=\"/img/uploads/murilo-macela-dourada-.jpg\"\n                            class=\"card-img-top\" alt=\"Modulação Intestinal - Entrevista exclusiva com o Murilo Pereira\"></a>\n                    <div class=\"card-body\">\n                        <h5 class=\"card-title\"><a href=\"/posts/modulacao-intestinal-entrevista-exclusiva-com-o-murilo-pereira\">Modulação Intestinal - Entrevista exclusiva com o Murilo Pereira</a></h5>\n                        <p class=\"card-text\"></p>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col col-md-6 col-lg-4\">\n                <div class=\"card\"><a href=\"/posts/como-conseguir-cabelos-longos-ondulados\"><img src=\"/img/uploads/como-conseguir-cabelos-longos-ondulados-1-.png\"\n                            class=\"card-img-top\" alt=\"Como conseguir cabelos longos ondulados\"></a>\n                    <div class=\"card-body\">\n                        <h5 class=\"card-title\"><a href=\"/posts/como-conseguir-cabelos-longos-ondulados\">Como conseguir cabelos longos ondulados</a></h5>\n                        <p class=\"card-text\"></p>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col col-md-6 col-lg-4\">\n                <div class=\"card\"><a href=\"/posts/7-beneficios-de-um-sono-de-qualidade\"><img src=\"/img/uploads/beneficios-do-sono.png\"\n                            class=\"card-img-top\" alt=\"7 benefícios de um sono de qualidade\"></a>\n                    <div class=\"card-body\">\n                        <h5 class=\"card-title\"><a href=\"/posts/7-beneficios-de-um-sono-de-qualidade\">7 benefícios de um sono de qualidade</a>\n                        </h5>\n                        <p class=\"card-text\"></p>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</div>\n<a href=\"/blog\">( Ver todos os posts )</a>"
+      "html": "<H2 style=\"text-align: center\"><a href=\"/blog\">Confira nosso Blog:</a></H2>\n<div class=\"blog my-4 my-lg-5\">\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"col col-md-6 col-lg-4\">\n                <div class=\"card\"><a href=\"/posts/como-tratar-o-esgotamento-fisico-e-mental\"><img\n                            src=\"https://res.cloudinary.com/maceladourada/image/upload/v1617974572/como-tratar-o-esgotamento-fisico-e-mental-_v6nlbl.jpg\" class=\"card-img-top\" alt=\"Como tratar o esgotamento físico e mental\"></a>\n                    <div class=\"card-body\">\n                        <h5 class=\"card-title\"><a href=\"/posts/como-tratar-o-esgotamento-fisico-e-mental\">Como tratar o esgotamento físico e mental</a></h5>\n                        <p class=\"card-text\"></p>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col col-md-6 col-lg-4\">\n                <div class=\"card\"><a href=\"/posts/modulacao-intestinal-entrevista-exclusiva-com-o-murilo-pereira\"><img src=\"https://res.cloudinary.com/maceladourada/image/upload/v1617974599/murilo-macela-dourada-_eolvzf.jpg\"\n                            class=\"card-img-top\" alt=\"Modulação Intestinal - Entrevista exclusiva com o Murilo Pereira\"></a>\n                    <div class=\"card-body\">\n                        <h5 class=\"card-title\"><a href=\"/posts/modulacao-intestinal-entrevista-exclusiva-com-o-murilo-pereira\">Modulação Intestinal - Entrevista exclusiva com o Murilo Pereira</a></h5>\n                        <p class=\"card-text\"></p>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col col-md-6 col-lg-4\">\n                <div class=\"card\"><a href=\"/posts/como-conseguir-cabelos-longos-ondulados\"><img src=\"https://res.cloudinary.com/maceladourada/image/upload/v1617974570/como-conseguir-cabelos-longos-ondulados-1-_ufzhxn.png\"\n                            class=\"card-img-top\" alt=\"Como conseguir cabelos longos ondulados\"></a>\n                    <div class=\"card-body\">\n                        <h5 class=\"card-title\"><a href=\"/posts/como-conseguir-cabelos-longos-ondulados\">Como conseguir cabelos longos ondulados</a></h5>\n                        <p class=\"card-text\"></p>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col col-md-6 col-lg-4\">\n                <div class=\"card\"><a href=\"/posts/7-beneficios-de-um-sono-de-qualidade\"><img src=\"https://res.cloudinary.com/maceladourada/image/upload/v1617974593/beneficios-do-sono_cm1e8d.png\"\n                            class=\"card-img-top\" alt=\"7 benefícios de um sono de qualidade\"></a>\n                    <div class=\"card-body\">\n                        <h5 class=\"card-title\"><a href=\"/posts/7-beneficios-de-um-sono-de-qualidade\">7 benefícios de um sono de qualidade</a>\n                        </h5>\n                        <p class=\"card-text\"></p>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</div>\n<a href=\"/blog\">( Ver todos os posts )</a>"
     },
     {
       "type": "custom-html",

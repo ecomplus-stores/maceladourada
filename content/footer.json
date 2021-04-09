@@ -22,7 +22,7 @@
   },
   "stamps": [
     {
-      "src": "/img/uploads/ssl-safe.png",
+      "src": "https://res.cloudinary.com/maceladourada/image/upload/v1617974613/ssl-safe_bcjfbe.png",
       "alt": "Secure connection"
     }
   ],
