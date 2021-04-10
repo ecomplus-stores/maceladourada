@@ -9,6 +9,10 @@
       "type": "page-title",
       "title": "Como envelhecer com Saúde",
       "description": "Uma das metas impostas pela Organização Mundial da Saúde (OMS) é reduzir em 15 milhões o número de idosos dependentes de terceiros até 2025. Isso acarreta uma série de fatores relacionados ao comportamento das pessoas e como elas querem envelhecer."
+    },
+    {
+      "type": "blog-post",
+      "enabled": true
     }
   ]
 }

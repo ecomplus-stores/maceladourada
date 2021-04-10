@@ -8,6 +8,10 @@
       "type": "page-title",
       "description": "Neuravena® é o ativo ideal para turbinar a performance mental! Extrato de uma variedade específica de aveia verde silvestre, cultivada em condições controladas...",
       "title": "Como Aumentar a Performance Mental"
+    },
+    {
+      "type": "blog-post",
+      "enabled": true
     }
   ],
   "thumbnail": "https://res.cloudinary.com/maceladourada/image/upload/v1617974567/como-aumentar-a-performance-mental-1-_l29jth.png"

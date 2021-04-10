@@ -9,6 +9,10 @@
       "type": "page-title",
       "title": "Nutracêuticos na Gestão da Glicemia\t",
       "description": "O principal componente dietético causador da elevação da glicose e da insulina sérica é o carboidrato. As quantidades e o tipo de carboidrato consumido têm efeito tanto na glicemia quanto na insulina pós-grandial."
+    },
+    {
+      "type": "blog-post",
+      "enabled": true
     }
   ]
 }

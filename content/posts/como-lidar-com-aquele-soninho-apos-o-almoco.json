@@ -8,6 +8,10 @@
       "type": "page-title",
       "description": "Esse soninho é tão famoso que tem até nome: **Maré pós-prandial.**   Durante a digestão, o fluxo sanguíneo do nosso corpo é direcionado para o aparelho digestivo, o que reduz a atividade cerebral e nos dá aquela sensação de “moleza”.",
       "title": "Como lidar com aquele soninho após o almoço?"
+    },
+    {
+      "type": "blog-post",
+      "enabled": true
     }
   ],
   "description": "Esse soninho é tão famoso que tem até nome: Maré pós-prandial. Durante a digestão, o fluxo sanguíneo do nosso corpo é direcionado para o aparelho digestivo..."

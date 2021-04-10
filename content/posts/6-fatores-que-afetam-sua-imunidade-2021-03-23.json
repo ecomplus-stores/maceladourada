@@ -9,6 +9,10 @@
       "type": "page-title",
       "title": "6 fatores que afetam sua imunidade",
       "description": "Estamos em constante contato com micro-organismos que podem transmitir doenças, no entanto, é o sistema imunológico que determina a nossa vulnerabilidade."
+    },
+    {
+      "type": "blog-post",
+      "enabled": true
     }
   ]
 }

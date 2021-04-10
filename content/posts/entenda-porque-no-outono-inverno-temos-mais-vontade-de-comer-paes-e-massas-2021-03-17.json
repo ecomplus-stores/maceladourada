@@ -9,6 +9,10 @@
       "type": "page-title",
       "title": "Entenda porque no outono-inverno temos mais vontade de comer pães e massas",
       "description": "O inverno se aproxima e, à medida que a temperatura cai o nosso apetite aumenta. Essa curiosa correlação é capaz de colocar a perder todo o esforço feito para conquistar a forma tão desejada no verão. Outro comportamento recorrente no outono-inverno é a falta de disposição para a prática de exercícios físicos, o que também pode contribuir para o ganho de peso."
+    },
+    {
+      "type": "blog-post",
+      "enabled": true
     }
   ]
 }

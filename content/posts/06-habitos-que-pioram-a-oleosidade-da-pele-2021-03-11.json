@@ -9,6 +9,10 @@
       "type": "page-title",
       "title": "06 hábitos que pioram a oleosidade da pele",
       "description": "Brilho excessivo, aspecto pesado e maior tendência à acne: quem tem pele oleosa conhece bem esses sintomas. Porém, mantendo uma rotina de limpeza adequada e cuidados no dia a dia, eles podem ser controladas."
+    },
+    {
+      "type": "blog-post",
+      "enabled": true
     }
   ]
 }

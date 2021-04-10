@@ -9,6 +9,10 @@
       "type": "page-title",
       "title": "Como diminuir os efeitos do estresse na pele - Chrono Curcuma®",
       "description": "A população brasileira está envelhecendo precocemente por causa da rotina cada vez mais estressante e cheia de cobranças."
+    },
+    {
+      "type": "blog-post",
+      "enabled": true
     }
   ]
 }

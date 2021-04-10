@@ -9,6 +9,10 @@
       "type": "page-title",
       "title": "Cosméticos e Dermocosméticos: Você sabe a diferença?",
       "description": "Muitos se confundem acerca da diferença entre cosméticos e dermocosméticos, mas cada um deles age em um determinado nível da cútis e proporcionam resultados diferentes."
+    },
+    {
+      "type": "blog-post",
+      "enabled": true
     }
   ]
 }

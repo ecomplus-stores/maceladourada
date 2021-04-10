@@ -11,6 +11,10 @@
       "description": "Além de alegrar o ambiente, algumas fores possuírem outra função, a de acalmar os ânimos e equilibrar o estado emocional..."
     },
     {
+      "type": "blog-post",
+      "enabled": true
+    },
+    {
       "type": "collection-shelf",
       "shuffle": true,
       "limit": 12,

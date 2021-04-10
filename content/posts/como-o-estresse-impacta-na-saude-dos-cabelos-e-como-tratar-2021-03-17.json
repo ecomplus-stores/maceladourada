@@ -9,6 +9,10 @@
       "type": "page-title",
       "title": "Como o estresse impacta na saúde dos cabelos e como tratar",
       "description": "Falta de tempo para si ou para a família. Longas horas de trabalho. Pressão dos chefes. Esses são apenas alguns dos problemas que muitos brasileiros enfrentam diariamente e que levam ao estresse."
+    },
+    {
+      "type": "blog-post",
+      "enabled": true
     }
   ]
 }

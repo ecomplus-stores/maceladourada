@@ -8,6 +8,10 @@
       "type": "page-title",
       "title": "O que se deve fazer para evitar a queda de cabelo no verão\t",
       "description": "A queda de cabelo pode ser causada por vários fatores. Além de fatores genéticos, a má alimentação, o stress, a caspa, o excesso de oleosidade no couro cabeludo e até cigarro e álcool comprometem o crescimento saudável dos fios."
+    },
+    {
+      "type": "blog-post",
+      "enabled": true
     }
   ],
   "description": "A queda de cabelo pode ser causada por vários fatores. Além de fatores genéticos, a má alimentação, o stress, a caspa, o excesso de oleosidade no couro cabeludo e até..."

@@ -9,6 +9,10 @@
       "type": "page-title",
       "title": "Dicas e truques para comer coisas gostosas de um jeito mais saudável\t",
       "description": "Comidas gostosas são tão viciantes quanto drogas pesadas, dizem os cientistas. Por outro lado, novas pesquisas mostram que se alimentar bem é mais simples do que parece…"
+    },
+    {
+      "type": "blog-post",
+      "enabled": true
     }
   ]
 }

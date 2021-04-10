@@ -9,6 +9,10 @@
       "type": "page-title",
       "title": "Os benefícios do ácido hialurônico na sua pele",
       "description": "inônimo de hidratação e queridinho dos tratamentos estéticos, o ácido hialurônico é um aliado de peso na manutenção de uma pele bem hidratada, firme e saudável."
+    },
+    {
+      "type": "blog-post",
+      "enabled": true
     }
   ]
 }

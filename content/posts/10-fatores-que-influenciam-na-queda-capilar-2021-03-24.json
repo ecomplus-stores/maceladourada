@@ -9,6 +9,10 @@
       "type": "page-title",
       "title": "10 Fatores que influenciam na queda capilar",
       "description": "A queda de cabelo é um processo natural do organismo. O fio passa por estágios que vão desde o crescimento, estabilização e queda natural."
+    },
+    {
+      "type": "blog-post",
+      "enabled": true
     }
   ]
 }

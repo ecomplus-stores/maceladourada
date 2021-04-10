@@ -9,6 +9,10 @@
       "type": "page-title",
       "title": "Desembrulhe menos, descasque mais\t",
       "description": "O principal fator que leva a este excesso de peso está no desequilíbrio entre ingestão energética (calorias) elevada e baixo gasto da energia."
+    },
+    {
+      "type": "blog-post",
+      "enabled": true
     }
   ]
 }

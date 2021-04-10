@@ -9,6 +9,10 @@
       "type": "page-title",
       "title": "6 maneiras simples para aumentar sua imunidade no Inverno",
       "description": "Inverno, por ser a estação mais fria do ano, é praticamente inevitável você apresentar gripes e resfriados. Porém, com as estratégias de bem-estar adequadas, podemos reduzir essa probabilidade de forma significativa."
+    },
+    {
+      "type": "blog-post",
+      "enabled": true
     }
   ]
 }

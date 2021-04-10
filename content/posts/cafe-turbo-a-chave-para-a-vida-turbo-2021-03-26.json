@@ -9,6 +9,10 @@
       "type": "page-title",
       "title": "Café Turbo - A Chave para a vida turbo",
       "description": "O único capaz de proporcionar a sua melhor versão, na velocidade de um turbo. Não se trata de um desses cafés com leite tradicionais, nem de um blend repleto de açúcar e produtos nocivos."
+    },
+    {
+      "type": "blog-post",
+      "enabled": true
     }
   ]
 }

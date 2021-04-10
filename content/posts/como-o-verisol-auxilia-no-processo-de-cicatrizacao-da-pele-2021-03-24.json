@@ -11,6 +11,10 @@
       "type": "page-title",
       "title": "Como o Verisol Auxilia no Processo de Cicatrização da Pele",
       "description": "VERISOL® é um suplemento inovador voltado para a saúde da pele. Ademais, sua combinação única de Peptídeos Bioativos de Colágeno® foram obtidas a partir de um processo tecnológico especial e patenteado."
+    },
+    {
+      "type": "blog-post",
+      "enabled": true
     }
   ]
 }

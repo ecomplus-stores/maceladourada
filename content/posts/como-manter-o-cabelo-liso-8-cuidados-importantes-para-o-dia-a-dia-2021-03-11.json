@@ -9,6 +9,10 @@
       "type": "page-title",
       "title": "Como manter o cabelo liso? 8 cuidados importantes para o dia a dia",
       "description": "Um cabelo liso, se bem cuidado, é bastante admirado. Existem diversos cuidados para cabelos lisos, se você tem mechas lisas, saiba que existem alguns cuidados essenciais e indispensáveis."
+    },
+    {
+      "type": "blog-post",
+      "enabled": true
     }
   ]
 }

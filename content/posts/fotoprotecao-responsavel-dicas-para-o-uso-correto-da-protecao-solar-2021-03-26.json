@@ -11,6 +11,10 @@
       "description": "O filtro solar deve ser utilizado diariamente, mesmo que o tempo esteja nublado, pois a radiação está presente também nesses dias."
     },
     {
+      "type": "blog-post",
+      "enabled": true
+    },
+    {
       "type": "collection-shelf",
       "shuffle": false,
       "limit": 12,

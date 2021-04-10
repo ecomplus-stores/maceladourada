@@ -9,6 +9,10 @@
       "type": "page-title",
       "title": "Intranasal: Uma via inovadora para a administração de ativos\t",
       "description": "Os ativos podem ser administrados, em sua maioria, por uma variedade de vias. A escolha da via apropriada depende tanto do ativo (como rapidez de ação, natureza e quantidade), quanto de fatores relacionados ao paciente."
+    },
+    {
+      "type": "blog-post",
+      "enabled": true
     }
   ]
 }

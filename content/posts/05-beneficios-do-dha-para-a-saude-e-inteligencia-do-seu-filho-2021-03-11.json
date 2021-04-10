@@ -9,6 +9,10 @@
       "type": "page-title",
       "title": "05 Benefícios do DHA para a saúde e inteligência do seu filho",
       "description": "Quando ingerido diariamente, o componente presente no ômega-3 pode melhorar as funções cerebrais e imunológicas."
+    },
+    {
+      "type": "blog-post",
+      "enabled": true
     }
   ]
 }

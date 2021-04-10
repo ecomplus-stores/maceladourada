@@ -9,6 +9,10 @@
       "type": "page-title",
       "title": "4 Nutrientes Essenciais para o Fortalecimento das Unhas",
       "description": "Unhas fracas e quebradiças podem significar falta de nutrientes que são necessários para mantê-las fortes e saudáveis."
+    },
+    {
+      "type": "blog-post",
+      "enabled": true
     }
   ]
 }

@@ -9,6 +9,10 @@
       "type": "page-title",
       "title": "Como ter o corpo perfeito para o verão\t",
       "description": "O projeto verão 2019 está a todo vapor! Nesse período de férias é comum ver praias e piscinas lotadas. Isso faz com que a busca pelo corpo ideal se intensifique ainda mais."
+    },
+    {
+      "type": "blog-post",
+      "enabled": true
     }
   ]
 }

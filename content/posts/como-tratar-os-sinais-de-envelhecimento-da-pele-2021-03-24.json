@@ -9,6 +9,10 @@
       "type": "page-title",
       "title": "Como tratar os sinais de envelhecimento da pele",
       "description": "Os sinais de envelhecimento da pele podem aparecer por causa da radiação solar, poluição sem proteção, falta de hidratação ou até mesmo devido à privação do sono."
+    },
+    {
+      "type": "blog-post",
+      "enabled": true
     }
   ]
 }

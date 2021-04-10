@@ -9,6 +9,10 @@
       "type": "page-title",
       "title": "O que é água micelar e suas vantagens",
       "description": "Você já deve ter ouvido falar de água micelar em artigos de beleza. Claro, ela se parece com a água normal, mas na verdade limpa e traz diversos benefícios para a sua pele."
+    },
+    {
+      "type": "blog-post",
+      "enabled": true
     }
   ]
 }
