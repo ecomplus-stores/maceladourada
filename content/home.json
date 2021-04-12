@@ -15,9 +15,9 @@
         {
           "start": "2030-12-31T18:01:53.986Z",
           "end": "",
-          "img": "https://res.cloudinary.com/maceladourada/image/upload/v1617974597/mais-saude-articulacao_izx8z8.png",
+          "img": "/img/uploads/mais-saude-articulacao_izx8z8.png",
           "link": "https://maceladourada.netlify.app/articulacoes-e-dores",
-          "mobile_img": "https://res.cloudinary.com/maceladourada/image/upload/v1617974597/mais-saude-articulacao-mobile_bkdwk0.png"
+          "mobile_img": "/img/uploads/mais-saude-articulacao-mobile_bkdwk0.png"
         }
       ]
     },
