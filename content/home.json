@@ -7,13 +7,13 @@
       "autoplay": 9000,
       "slides": [
         {
-          "start": "2030-12-31T18:41:03.815Z",
+          "start": "",
           "end": "",
           "img": "https://res.cloudinary.com/maceladourada/image/upload/v1617974587/baixe-o-aplicaivo-macela_bwhzhk.png",
           "mobile_img": "https://res.cloudinary.com/maceladourada/image/upload/v1617974588/baixe-app-mobile_wdzw09.png"
         },
         {
-          "start": "2030-12-31T18:01:53.986Z",
+          "start": "",
           "end": "",
           "img": "https://res.cloudinary.com/maceladourada/image/upload/v1617974597/mais-saude-articulacao_izx8z8.png",
           "link": "https://maceladourada.netlify.app/articulacoes-e-dores",
