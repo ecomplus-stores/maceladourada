@@ -6,9 +6,14 @@
     "color": "#ffffff"
   },
   "contacts_stripe": {
-    "pages": [],
-    "phone_wpp": false,
-    "socials": false
+    "pages": [
+      {
+        "title": "Blog",
+        "link": "https://maceladourada.netlify.app/blog"
+      }
+    ],
+    "phone_wpp": true,
+    "socials": true
   },
   "categories_list": {
     "featured": [],
