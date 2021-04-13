@@ -1,15 +1,12 @@
 // Add your custom CSS here.
 @media(min-width: 767px) {
   .page--home .banners-grid .col-lg-3 {
-    max-width: 20% !important
+    max-width: 25% !important
   }
 }
 @media(max-width: 767px) {
   .page--home .banners-grid .col-lg-3 {
     max-width: 50% !important;
-    &:last-child {
-      max-width: 100% !important
-    }
   }
   .search-engine__retail .product-card__buy {
     position: relative;
