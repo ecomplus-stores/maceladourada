@@ -1,14 +1,14 @@
 {
   "shipping": {
-    "show": false,
-    "text": "Entregamos para todo o Brasil"
+    "show": true,
+    "text": "Entregas em todo o Brasil"
   },
   "installments": {
-    "show": false,
+    "show": true,
     "text": "Parcele em até 3x sem juros"
   },
   "exchange": {
-    "show": false,
+    "show": true,
     "text": "Compra 100% segura"
   },
   "promo": {
