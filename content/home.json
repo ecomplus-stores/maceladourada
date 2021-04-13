@@ -33,20 +33,16 @@
           "link": "https://maceladourada.netlify.app/imunidade"
         },
         {
-          "img": "https://res.cloudinary.com/maceladourada/image/upload/v1617974613/saude_e_bem_estar_tnjtxf.png",
-          "link": "https://maceladourada.netlify.app/saude"
-        },
-        {
           "img": "https://res.cloudinary.com/maceladourada/image/upload/v1617974564/cabelos_o0loii.png",
           "link": "https://maceladourada.netlify.app/crescimento-capilar"
         },
         {
-          "img": "https://res.cloudinary.com/maceladourada/image/upload/v1617974581/emagrecimento_rp1r4u.png",
-          "link": "https://maceladourada.netlify.app/emagrecedores"
-        },
-        {
           "img": "https://res.cloudinary.com/maceladourada/image/upload/v1617974585/florais_bmzahq.png",
           "link": "https://maceladourada.netlify.app/terapia-floral"
+        },
+        {
+          "img": "https://res.cloudinary.com/maceladourada/image/upload/v1617974581/emagrecimento_rp1r4u.png",
+          "link": "https://maceladourada.netlify.app/emagrecedores"
         }
       ]
     },
