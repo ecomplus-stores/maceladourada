@@ -1,15 +1,18 @@
 {
   "shipping": {
     "show": true,
-    "text": "Entregas em todo o Brasil"
+    "text": "Entregas em todo o Brasil",
+    "link": "https://maceladourada.netlify.app/pages/entrega"
   },
   "installments": {
     "show": true,
-    "text": "Parcele em até 3x sem juros"
+    "text": "Parcele em até 3x sem juros",
+    "link": "https://maceladourada.netlify.app/pages/pagamentos"
   },
   "exchange": {
     "show": true,
-    "text": "Compra 100% segura"
+    "text": "Compra 100% segura",
+    "link": "https://maceladourada.netlify.app/pages/privacidade"
   },
   "promo": {
     "show": false,
