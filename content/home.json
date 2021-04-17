@@ -76,19 +76,19 @@
     },
     {
       "type": "collection-shelf",
-      "shuffle": true,
-      "limit": "",
-      "page": "",
-      "collection_id": "5ffc982469274c73fcf39952:categories:Ada Tina:/adatina",
-      "title": "Ada Tina 🧴"
-    },
-    {
-      "type": "collection-shelf",
       "shuffle": false,
       "limit": "",
       "page": "",
       "collection_id": "604c0901a735d032cbba2ae3:categories:Terapia Floral:/terapia-floral",
       "title": "Florais 🌺"
+    },
+    {
+      "type": "collection-shelf",
+      "shuffle": true,
+      "limit": "",
+      "page": "",
+      "collection_id": "5ffc982469274c73fcf39952:categories:Ada Tina:/adatina",
+      "title": "Ada Tina 🧴"
     },
     {
       "type": "custom-html",
