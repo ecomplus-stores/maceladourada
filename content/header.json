@@ -10,6 +10,10 @@
       {
         "title": "Blog",
         "link": "https://maceladourada.netlify.app/blog"
+      },
+      {
+        "title": "Nossas Lojas",
+        "link": "https://maceladourada.netlify.app/pages/contato"
       }
     ],
     "phone_wpp": true,
