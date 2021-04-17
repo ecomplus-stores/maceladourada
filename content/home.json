@@ -63,7 +63,8 @@
       "limit": "",
       "page": "",
       "sort": "offers",
-      "title": "Promoções! 🛍️"
+      "title": "Promoções! 🛍️",
+      "link": "https://maceladourada.netlify.app/promocoes"
     },
     {
       "type": "collection-shelf",
