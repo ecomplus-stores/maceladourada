@@ -16,7 +16,15 @@
     "socials": true
   },
   "categories_list": {
-    "featured": [],
+    "featured": [
+      "/imunidade?Imunidade",
+      "/promocoes?Promoções",
+      "/adatina?Ada Tina",
+      "/manipulados?Manipulados",
+      "/saude?Saúde",
+      "/esporte?Esporte",
+      "/beleza?Beleza"
+    ],
     "random": 7,
     "full_width": true
   },
