@@ -53,7 +53,8 @@
       "limit": "",
       "page": "",
       "title": "Mais vendidos ✅",
-      "sort": "sales"
+      "sort": "sales",
+      "collection_id": "5ffc981369274c73fcf39948:categories:Promoções:/promocoes"
     },
     {
       "type": "collection-shelf",
