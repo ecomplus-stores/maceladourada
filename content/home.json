@@ -27,6 +27,10 @@
       "enabled": true
     },
     {
+      "type": "custom-html",
+      "html": "Categorias mais acessadas:"
+    },
+    {
       "type": "banners-grid",
       "banners": [
         {
