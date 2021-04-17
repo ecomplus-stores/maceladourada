@@ -52,6 +52,14 @@
       "shuffle": true,
       "limit": "",
       "page": "",
+      "collection_id": "6035d6ca9332dd6865dcc7ee:categories:Imunidade:/imunidade",
+      "title": "Imunidade 💪"
+    },
+    {
+      "type": "collection-shelf",
+      "shuffle": true,
+      "limit": "",
+      "page": "",
       "title": "Mais vendidos ✅",
       "sort": "sales",
       "collection_id": null
@@ -73,6 +81,22 @@
       "page": "",
       "collection_id": "5ffc982469274c73fcf39952:categories:Ada Tina:/adatina",
       "title": "Ada Tina 🧴"
+    },
+    {
+      "type": "collection-shelf",
+      "shuffle": false,
+      "limit": "",
+      "page": "",
+      "collection_id": "604c0901a735d032cbba2ae3:categories:Terapia Floral:/terapia-floral",
+      "title": "Florais 🌺"
+    },
+    {
+      "type": "collection-shelf",
+      "shuffle": false,
+      "limit": "",
+      "page": "",
+      "collection_id": "6035d62c9332dd6865dcc761:categories:Emagrecedores:/emagrecedores",
+      "title": "Emagrecimento 🏃"
     },
     {
       "type": "custom-html",
