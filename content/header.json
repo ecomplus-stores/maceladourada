@@ -23,9 +23,10 @@
       "/manipulados?Manipulados",
       "/saude?Saúde",
       "/esporte?Esporte",
-      "/beleza?Beleza"
+      "/beleza?Beleza",
+      "/antialergicos?Para alérgicos"
     ],
-    "random": 7,
+    "random": 8,
     "full_width": true
   },
   "search_input": true
