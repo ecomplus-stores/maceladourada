@@ -9,11 +9,11 @@
     "pages": [
       {
         "title": "Blog",
-        "link": "https://maceladourada.netlify.app/blog"
+        "link": "/blog"
       },
       {
         "title": "Fale conosco",
-        "link": "https://maceladourada.netlify.app/pages/contato"
+        "link": "/pages/contato"
       }
     ],
     "phone_wpp": true,
