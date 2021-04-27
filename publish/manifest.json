@@ -1,0 +1,37 @@
+{
+  "icons": [
+    {
+      "src": "/icon_512x512.271a4a14ce2d740ebe256278e4e9a10b.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_384x384.ed891cace1af1e9c5a5271f8b6898276.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_192x192.ed060d4ca2d48e10764b266622e97465.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_128x128.7edda39dc3f1ad472c7ca6abb7f99e21.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_96x96.d8d31c06624d58591ce640dca5015fe2.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    }
+  ],
+  "name": "Macela Dourada",
+  "short_name": "maceladourada",
+  "orientation": "portrait",
+  "display": "standalone",
+  "start_url": ".",
+  "description": "maceladourada",
+  "background_color": "#ffffff",
+  "theme_color": "#007062"
+}
