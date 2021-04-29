@@ -9,7 +9,7 @@
   "bg_color": "#ffffff",
   "logo": "/img/uploads/logo.png",
   "name": "Macela Dourada",
-  "short_name": "maceladourada",
+  "short_name": "Macela Dourada",
   "lang": "pt_br",
   "currency": "BRL",
   "mini_logo": "",
@@ -18,6 +18,6 @@
   "secondary_color": "#d19e3c",
   "icon": "/img/uploads/favicon.png",
   "store_id": 1201,
-  "description": "maceladourada",
+  "description": "Desde 1996 a Macela Dourada busca restabelecer e promover a saúde dos clientes através do fornecimento de produtos de qualidade e eficácia comprovadas.",
   "large_icon": "/img/uploads/favicon.png"
 }
