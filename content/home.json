@@ -11,13 +11,13 @@
           "end": "",
           "img": "https://res.cloudinary.com/maceladourada/image/upload/v1617974587/baixe-o-aplicaivo-macela_bwhzhk.png",
           "mobile_img": "https://res.cloudinary.com/maceladourada/image/upload/v1617974588/baixe-app-mobile_wdzw09.png",
-          "link": "https://maceladourada.netlify.app/baixe-o-aplicativo"
+          "link": "https://maceladourada.com.br/baixe-o-aplicativo"
         },
         {
           "start": "",
           "end": "",
           "img": "https://res.cloudinary.com/maceladourada/image/upload/v1617974597/mais-saude-articulacao_izx8z8.png",
-          "link": "https://maceladourada.netlify.app/articulacoes-e-dores",
+          "link": "https://maceladourada.com.br/articulacoes-e-dores",
           "mobile_img": "https://res.cloudinary.com/maceladourada/image/upload/v1617974597/mais-saude-articulacao-mobile_bkdwk0.png"
         }
       ]
@@ -35,19 +35,19 @@
       "banners": [
         {
           "img": "https://res.cloudinary.com/maceladourada/image/upload/v1617974606/protecao_e_imunidade_q22kyt.png",
-          "link": "https://maceladourada.netlify.app/imunidade"
+          "link": "https://maceladourada.com.br/imunidade"
         },
         {
           "img": "https://res.cloudinary.com/maceladourada/image/upload/v1617974564/cabelos_o0loii.png",
-          "link": "https://maceladourada.netlify.app/crescimento-capilar"
+          "link": "https://maceladourada.com.br/crescimento-capilar"
         },
         {
           "img": "https://res.cloudinary.com/maceladourada/image/upload/v1617974585/florais_bmzahq.png",
-          "link": "https://maceladourada.netlify.app/terapia-floral"
+          "link": "https://maceladourada.com.br/terapia-floral"
         },
         {
           "img": "https://res.cloudinary.com/maceladourada/image/upload/v1617974581/emagrecimento_rp1r4u.png",
-          "link": "https://maceladourada.netlify.app/emagrecedores"
+          "link": "https://maceladourada.com.br/emagrecedores"
         }
       ]
     },
