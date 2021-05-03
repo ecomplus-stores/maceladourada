@@ -3,7 +3,12 @@
     "redirects": [
       {
         "source": "/6-habitos-que-pioram-a-oleosidade-da-pele",
-        "destination": "/posts/6-habitos-que-pioram-a-oleosidade-da-pele",
+        "destination": "/posts/06-habitos-que-pioram-a-oleosidade-da-pele",
+        "type": 301
+      },
+      {
+        "source": "https://maceladourada.com.br/probioticos-muito-mais-do-que-saude-intestinal",
+        "destination": "/posts/probioticos-muito-mais-do-que-saude-intestinal",
         "type": 301
       },
       {
