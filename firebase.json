@@ -1,6 +1,327 @@
 {
   "hosting": {
     "redirects": [
+      {
+        "source": "https://maceladourada.com.br/6-habitos-que-pioram-a-oleosidade-da-pele",
+        "destination": "/posts/6-habitos-que-pioram-a-oleosidade-da-pele",
+        "type": 301
+},{
+        "source": "https://maceladourada.com.br/10-fatores-que-influenciam-na-queda-capilar",
+        "destination": "/posts/10-fatores-que-influenciam-na-queda-capilar",
+        "type": 301
+},{
+        "source": "https://maceladourada.com.br/4-nutrientes-essenciais-para-o-fortalecimento-das-unhas",
+        "destination": "/posts/4-nutrientes-essenciais-para-o-fortalecimento-das-unhas",
+        "type": 301
+},{
+        "source": "https://maceladourada.com.br/6-fatores-que-afetam-sua-imunidade",
+        "destination": "/posts/6-fatores-que-afetam-sua-imunidade",
+        "type": 301
+},{
+        "source": "https://maceladourada.com.br/6-maneiras-para-aumentar-sua-imunidade-no-inverno",
+        "destination": "/posts/6-maneiras-simples-para-aumentar-sua-imunidade-no-inverno",
+        "type": 301
+},{
+        "source": "https://maceladourada.com.br/6-motivos-que-promovem-a-queda-dos-cabelos",
+        "destination": "/posts/6-motivos-que-promovem-a-queda-dos-cabelos",
+        "type": 301
+},{
+        "source": "https://maceladourada.com.br/7-beneficios-de-um-sono-de-qualidade",
+        "destination": "/posts/7-beneficios-de-um-sono-de-qualidade",
+        "type": 301
+},{
+        "source": "https://maceladourada.com.br/7-efeitos-da-poluicao-sobre-a-nossa-pele-e-como-combate-los",
+        "destination": "/posts/7-efeitos-da-poluicao-sobre-a-nossa-pele-e-como-combate-los",
+        "type": 301
+},{
+        "source": "https://maceladourada.com.br/7-segredos-que-o-seu-intestino-esta-querendo-te-contar",
+        "destination": "/posts/7-segredos-que-o-seu-intestino-esta-querendo-te-contar",
+        "type": 301
+},{
+        "source": "https://maceladourada.com.br/8-dicas-para-fazer-o-cabelo-crescer-mais-forte-e-rapido",
+        "destination": "/posts/8-dicas-para-fazer-o-cabelo-crescer-mais-forte-e-rapido",
+        "type": 301
+},{
+        "source": "https://maceladourada.com.br/8-passos-para-combater-o-estresse-e-melhorar-seu-estilo-de-vida",
+        "destination": "/posts/8-passos-para-combater-o-estresse-e-melhorar-seu-estilo-de-vida",
+        "type": 301
+},{
+        "source": "https://maceladourada.com.br/alimentos-que-melhoram-a-saude-do-intestino",
+        "destination": "/posts/alimentos-que-melhoram-a-saude-do-intestino",
+        "type": 301
+},{
+        "source": "https://maceladourada.com.br/altilix-detoxificacao-eficaz-e-segura-em-capsulas",
+        "destination": "/posts/altilix-detoxificacao-eficaz-e-segura-em-capsulas",
+        "type": 301
+},{
+        "source": "https://maceladourada.com.br/beneficios-da-aromaterapia-no-inverno",
+        "destination": "/posts/beneficios-da-aromaterapia-no-inverno",
+        "type": 301
+},{
+        "source": "https://maceladourada.com.br/cafe-turbo-a-chave-para-a-vida-turbo",
+        "destination": "/posts/cafe-turbo-a-chave-para-a-vida-turbo",
+        "type": 301
+},{
+        "source": "https://maceladourada.com.br/como-acelerar-o-metabolismo-para-emagrecer-rapido",
+        "destination": "/posts/como-acelerar-o-metabolismo-para-emagrecer-rapido",
+        "type": 301
+},{
+        "source": "https://maceladourada.com.br/como-aumentar-a-performance-mental",
+        "destination": "/posts/como-aumentar-a-performance-mental",
+        "type": 301
+},{
+        "source": "https://maceladourada.com.br/como-conseguir-cabelos-longos-ondulados",
+        "destination": "/posts/como-conseguir-cabelos-longos-ondulados",
+        "type": 301
+},{
+        "source": "https://maceladourada.com.br/como-dar-volume-e-forca-aos-cabelos-ralos",
+        "destination": "/posts/como-dar-volume-e-forca-aos-cabelos-ralos",
+        "type": 301
+},{
+        "source": "https://maceladourada.com.br/como-diminuir-os-efeitos-do-estresse-na-pele",
+        "destination": "/posts/como-diminuir-os-efeitos-do-estresse-na-pele-chrono-curcuma",
+        "type": 301
+},{
+        "source": "https://maceladourada.com.br/como-envelhecer-com-saude",
+        "destination": "/posts/como-envelhecer-com-saude",
+        "type": 301
+},{
+        "source": "https://maceladourada.com.br/como-fazer-umectacao-capilar",
+        "destination": "/posts/como-fazer-umectacao-capilar-5-dicas-essenciais-para-essa-tecnica",
+        "type": 301
+},{
+        "source": "https://maceladourada.com.br/soninho-apos-o-almoco",
+        "destination": "/posts/como-lidar-com-aquele-soninho-apos-o-almoco",
+        "type": 301
+},{
+        "source": "https://maceladourada.com.br/como-manter-o-cabelo-liso-8-cuidados-importantes-para-o-dia-a-dia",
+        "destination": "/posts/como-manter-o-cabelo-liso-8-cuidados-importantes-para-o-dia-a-dia",
+        "type": 301
+},{
+        "source": "https://maceladourada.com.br/como-minimizar-o-ganho-de-peso-nas-festas",
+        "destination": "/posts/como-minimizar-o-ganho-de-peso-nas-festas",
+        "type": 301
+},{
+        "source": "https://maceladourada.com.br/como-o-estresse-impacta-na-saude-dos-cabelos-e-como-tratar",
+        "destination": "/posts/como-o-estresse-impacta-na-saude-dos-cabelos-e-como-tratar",
+        "type": 301
+},{
+        "source": "https://maceladourada.com.br/como-o-verao-afeta-a-imunidade-veja-5-dicas-para-aumentar-a-imunidade",
+        "destination": "/posts/como-o-verao-afeta-nossa-saude-veja-5-dicas-para-aumentar-a-imunidade",
+        "type": 301
+},{
+        "source": "https://maceladourada.com.br/como-o-colageno-verisol-auxilia-no-processo-de-cicatrizacao-da-pele",
+        "destination": "/posts/como-o-verisol-auxilia-no-processo-de-cicatrizacao-da-pele",
+        "type": 301
+},{
+        "source": "https://maceladourada.com.br/como-prevenir-o-envelhecimento-dos-cabelos",
+        "destination": "/posts/como-prevenir-o-envelhecimento-dos-cabelos",
+        "type": 301
+},{
+        "source": "https://maceladourada.com.br/como-prevenir-o-envelhecimento-dos-labios",
+        "destination": "/posts/como-prevenir-o-envelhecimento-dos-labios",
+        "type": 301
+},{
+        "source": "https://maceladourada.com.br/como-prevenir-o-envelhecimento-precoce-da-pele",
+        "destination": "/posts/como-prevenir-o-envelhecimento-precoce-da-pele",
+        "type": 301
+},{
+        "source": "https://maceladourada.com.br/como-sair-do-efeito-plato",
+        "destination": "/posts/como-sair-do-efeito-plato",
+        "type": 301
+},{
+        "source": "https://maceladourada.com.br/como-ter-o-corpo-perfeito-para-o-verao",
+        "destination": "/posts/como-ter-o-corpo-perfeito-para-o-verao",
+        "type": 301
+},{
+        "source": "https://maceladourada.com.br/como-tratar-hipomelanoses",
+        "destination": "/posts/como-tratar-hipomelanoses",
+        "type": 301
+},{
+        "source": "https://maceladourada.com.br/como-tratar-o-esgotamento-fisico-e-mental",
+        "destination": "/posts/como-tratar-o-esgotamento-fisico-e-mental",
+        "type": 301
+},{
+        "source": "https://maceladourada.com.br/como-tratar-os-sinais-de-envelhecimento-da-pele",
+        "destination": "/posts/como-tratar-os-sinais-de-envelhecimento-da-pele",
+        "type": 301
+},{
+        "source": "https://maceladourada.com.br/coronavirus-como-a-vitamina-d-ajuda-a-reduzir-os-riscos-de-infeccao",
+        "destination": "/posts/coronavirus-como-a-vitamina-d-ajuda-a-reduzir-os-riscos-de-infeccao",
+        "type": 301
+},{
+        "source": "https://maceladourada.com.br/coronavirus-informacao-e-protecao-com-o-melhor-tratamento",
+        "destination": "/posts/coronavirus-informacao-e-protecao-com-o-melhor-tratamento",
+        "type": 301
+},{
+        "source": "https://maceladourada.com.br/cosmeticos-x-dermocosmeticos-voce-sabe-a-diferenca",
+        "destination": "/posts/cosmeticos-e-dermocosmeticos-voce-sabe-a-diferenca",
+        "type": 301
+},{
+        "source": "https://maceladourada.com.br/descubra-como-reduzir-a-celulite",
+        "destination": "/posts/descubra-como-reduzir-a-celulite",
+        "type": 301
+},{
+        "source": "https://maceladourada.com.br/dicas-e-truques-para-comer-coisas-gostosas-de-um-jeito-mais-saudavel",
+        "destination": "/posts/dicas-e-truques-para-comer-coisas-gostosas-de-um-jeito-mais-saudavel",
+        "type": 301
+},{
+        "source": "https://maceladourada.com.br/dicas-importantes-para-quem-deseja-parar-de-fumar",
+        "destination": "/posts/dicas-importantes-para-quem-deseja-parar-de-fumar",
+        "type": 301
+},{
+        "source": "https://maceladourada.com.br/desembrulhe-menos-descasque-mais",
+        "destination": "/posts/desembrulhe-menos-descasque-mais",
+        "type": 301
+},{
+        "source": "https://maceladourada.com.br/entenda-porque-no-outono-inverno-temos-mais-vontade-de-paes-e-massas",
+        "destination": "/posts/entenda-porque-no-outono-inverno-temos-mais-vontade-de-comer-paes-e-massas",
+        "type": 301
+},{
+        "source": "https://maceladourada.com.br/filtro-solar-para-ele-tambem",
+        "destination": "/posts/filtro-solar-para-ele-tambem",
+        "type": 301
+},{
+        "source": "https://maceladourada.com.br/fotoprotecao-responsavel-dicas-para-o-uso-correto-da-protecao-solar",
+        "destination": "/posts/fotoprotecao-responsavel-dicas-para-o-uso-correto-da-protecao-solar",
+        "type": 301
+},{
+        "source": "https://maceladourada.com.br/intranasal-uma-via-inovadora-para-a-administracao-de-ativos",
+        "destination": "/posts/intranasal-uma-via-inovadora-para-a-administracao-de-ativos",
+        "type": 301
+},{
+        "source": "https://maceladourada.com.br/melasma-saiba-o-que-e-e-qual-o-melhor-tratamento",
+        "destination": "/posts/melasma-saiba-o-que-e-e-qual-o-melhor-tratamento",
+        "type": 301
+},{
+        "source": "https://maceladourada.com.br/voce-e-o-que-voce-come-entrevista-exclusiva-modulacao-intestinal",
+        "destination": "/posts/modulacao-intestinal-entrevista-exclusiva-com-o-murilo-pereira",
+        "type": 301
+},{
+        "source": "https://maceladourada.com.br/7-causas-para-a-insonia",
+        "destination": "/posts/nao-consegue-dormir-veja-7-causas-para-a-insonia",
+        "type": 301
+},{
+        "source": "https://maceladourada.com.br/nutraceuticos-na-gestao-da-glicemia",
+        "destination": "/posts/nutraceuticos-na-gestao-da-glicemia",
+        "type": 301
+},{
+        "source": "https://maceladourada.com.br/o-que-e-agua-micelar-e-suas-vantagens",
+        "destination": "/posts/o-que-e-agua-micelar-e-suas-vantagens",
+        "type": 301
+},{
+        "source": "https://maceladourada.com.br/o-que-e-e-como-funciona-a-medicina-integrativa",
+        "destination": "/posts/o-que-e-e-como-funciona-a-medicina-integrativa",
+        "type": 301
+},{
+        "source": "https://maceladourada.com.br/o-que-e-terapia-floral-e-como-funciona",
+        "destination": "/posts/o-que-e-terapia-floral-e-como-funciona",
+        "type": 301
+},{
+        "source": "https://maceladourada.com.br/o-que-e-xylitol-e-seus-beneficios",
+        "destination": "/posts/o-que-e-xylitol-e-seus-beneficios",
+        "type": 301
+},{
+        "source": "https://maceladourada.com.br/o-que-fazer-para-fortalecer-a-imunidade-das-criancas-no-frio",
+        "destination": "/posts/o-que-fazer-para-fortalecer-a-imunidade-das-criancas-no-frio",
+        "type": 301
+},{
+        "source": "https://maceladourada.com.br/o-que-sao-aminoacidos-e-quais-os-seus-beneficios",
+        "destination": "/posts/o-que-sao-aminoacidos-e-quais-os-seus-beneficios",
+        "type": 301
+},{
+        "source": "https://maceladourada.com.br/o-que-se-deve-fazer-para-evitar-a-queda-de-cabelo-no-verao",
+        "destination": "/posts/o-que-se-deve-fazer-para-evitar-a-queda-de-cabelo-no-verao",
+        "type": 301
+},{
+        "source": "https://maceladourada.com.br/os-beneficios-do-acido-hialuronico-na-sua-pele",
+        "destination": "/posts/os-beneficios-do-acido-hialuronico-na-sua-pele",
+        "type": 301
+},{
+        "source": "https://maceladourada.com.br/os-efeitos-do-estresse-no-estomago",
+        "destination": "/posts/os-efeitos-do-estresse-no-estomago",
+        "type": 301
+},{
+        "source": "https://maceladourada.com.br/pesquisa-diz-que-70-dos-brasileiros-nao-usam-filtro-solar-todo-dia-e-80-nao-sabem-quanto-aplicar",
+        "destination": "/posts/pesquisa-diz-que-70-dos-brasileiros-nao-usam-filtro-solar-todo-dia-e-80-nao-sabem-quanto-aplicar",
+        "type": 301
+},{
+        "source": "https://maceladourada.com.br/pinetonina-a-aromaterapia-alem-da-aromaterapia",
+        "destination": "/posts/pinetonina-a-aromaterapia-alem-da-aromaterapia",
+        "type": 301
+},{
+        "source": "https://maceladourada.com.br/por-que-a-tpm-afeta-o-intestino-e-como-evitar",
+        "destination": "/posts/por-que-a-tpm-afeta-o-intestino-e-como-evitar",
+        "type": 301
+},{
+        "source": "https://maceladourada.com.br/por-que-surgem-as-estrias-e-como-trata-las",
+        "destination": "/posts/por-que-surgem-as-estrias-e-como-trata-las",
+        "type": 301
+},{
+        "source": "",
+        "destination": "/posts/probioticos-muito-mais-do-que-saude-intestinal",
+        "type": 301
+},{
+        "source": "https://maceladourada.com.br/probioticos-muito-mais-do-que-saude-intestinal",
+        "destination": "/posts/",
+        "type": 301
+},{
+        "source": "https://maceladourada.com.br/quais-os-beneficios-do-colageno-tipo-2",
+        "destination": "/posts/quais-os-beneficios-do-colageno-tipo-2",
+        "type": 301
+},{
+        "source": "https://maceladourada.com.br/qual-o-protetor-solar-para-cada-tipo-de-pele",
+        "destination": "/posts/qual-o-protetor-solar-ideal-para-cada-tipo-de-pele",
+        "type": 301
+},{
+        "source": "https://maceladourada.com.br/queda-de-cabelo-saiba-o-que-causa-e-como-tratar-com-10-dicas",
+        "destination": "/posts/queda-de-cabelo-saiba-o-que-causa-e-como-tratar-com-10-dicas",
+        "type": 301
+},{
+        "source": "https://maceladourada.com.br/sindrome-de-overtraining-cuidado-para-nao-exagerar-nos-treinamentos",
+        "destination": "/posts/sindrome-de-overtraining-cuidado-para-nao-exagerar-nos-treinamentos",
+        "type": 301
+},{
+        "source": "https://maceladourada.com.br/suas-unhas-sao-fracas-veja-8-cuidados-para-deixa-las-impecaveis",
+        "destination": "/posts/suas-unhas-sao-fracas-veja-8-cuidados-para-deixa-las-impecaveis",
+        "type": 301
+},{
+        "source": "https://maceladourada.com.br/tipos-de-colageno-quais-sao-eles-e-para-que-servem",
+        "destination": "/posts/tipos-de-colageno-quais-sao-eles-e-para-que-servem",
+        "type": 301
+},{
+        "source": "https://maceladourada.com.br/tudo-o-que-voce-precisa-saber-sobre-a-agua-micelar-e-seus-beneficios-para-a-pele",
+        "destination": "/posts/tudo-o-que-voce-precisa-saber-sobre-a-agua-micelar-e-seus-beneficios-para-pele",
+        "type": 301
+},{
+        "source": "https://maceladourada.com.br/um-jeito-natural-de-tratar-a-dor-nas-articulacoes-e-o-desgaste-nas-cartilagens",
+        "destination": "/posts/um-jeito-natural-de-tratar-a-dor-nas-articulacoes-e-o-desgaste-nas-cartilagens",
+        "type": 301
+},{
+        "source": "https://maceladourada.com.br/uniformizacao-e-rejuvenescimento-da-pele-apos-exposicao-solar-no-verao",
+        "destination": "/posts/uniformizacao-e-rejuvenescimento-da-pele-apos-exposicao-solar-no-verao",
+        "type": 301
+},{
+        "source": "https://maceladourada.com.br/upgrade-energy-suplemento-que-da-energia",
+        "destination": "/posts/upgrade-energy-suplemento-que-da-energia",
+        "type": 301
+},{
+        "source": "https://maceladourada.com.br/vitamina-d-para-veganos",
+        "destination": "/posts/vitamina-d-para-veganos",
+        "type": 301
+},{
+        "source": "https://maceladourada.com.br/voce-cuida-do-seu-coracao-veja-8-cuidados-para-melhorar-a-saude-cardiovascular",
+        "destination": "/posts/voce-cuida-do-seu-coracao-veja-8-cuidados-para-melhorar-a-saude-cardiovascular",
+        "type": 301
+},{
+        "source": "https://maceladourada.com.br/voce-cuida-dos-seus-cabelos-veja-como-montar-um-cronograma-capilar",
+        "destination": "/posts/voce-cuida-dos-seus-cabelos-veja-como-montar-um-cronograma-capilar",
+        "type": 301
+},{
+        "source": "https://maceladourada.com.br/dicas-para-controlar-a-compulsao-por-doces",
+        "destination": "/posts/voce-nao-resiste-a-guloseimas-07-dicas-para-voce-controlar-a-compulsao-por-doces",
+        "type": 301
+}
     ],
     "public": "dist",
     "ignore": [
