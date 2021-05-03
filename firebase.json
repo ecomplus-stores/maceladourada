@@ -2,75 +2,79 @@
   "hosting": {
     "redirects": [
       {
-        "source": "https://maceladourada.com.br/6-habitos-que-pioram-a-oleosidade-da-pele",
+        "source": "/6-habitos-que-pioram-a-oleosidade-da-pele",
         "destination": "/posts/6-habitos-que-pioram-a-oleosidade-da-pele",
         "type": 301
-},{
-        "source": "https://maceladourada.com.br/10-fatores-que-influenciam-na-queda-capilar",
+      },
+      {
+        "source": "/10-fatores-que-influenciam-na-queda-capilar",
         "destination": "/posts/10-fatores-que-influenciam-na-queda-capilar",
         "type": 301
-},{
-        "source": "https://maceladourada.com.br/4-nutrientes-essenciais-para-o-fortalecimento-das-unhas",
+      },
+      {
+        "source": "/4-nutrientes-essenciais-para-o-fortalecimento-das-unhas",
         "destination": "/posts/4-nutrientes-essenciais-para-o-fortalecimento-das-unhas",
         "type": 301
-},{
-        "source": "https://maceladourada.com.br/6-fatores-que-afetam-sua-imunidade",
+      },
+      {
+        "source": "/6-fatores-que-afetam-sua-imunidade",
         "destination": "/posts/6-fatores-que-afetam-sua-imunidade",
         "type": 301
-},{
-        "source": "https://maceladourada.com.br/6-maneiras-para-aumentar-sua-imunidade-no-inverno",
+      },
+      {
+        "source": "/6-maneiras-para-aumentar-sua-imunidade-no-inverno",
         "destination": "/posts/6-maneiras-simples-para-aumentar-sua-imunidade-no-inverno",
         "type": 301
 },{
-        "source": "https://maceladourada.com.br/6-motivos-que-promovem-a-queda-dos-cabelos",
+        "source": "/6-motivos-que-promovem-a-queda-dos-cabelos",
         "destination": "/posts/6-motivos-que-promovem-a-queda-dos-cabelos",
         "type": 301
 },{
-        "source": "https://maceladourada.com.br/7-beneficios-de-um-sono-de-qualidade",
+        "source": "/7-beneficios-de-um-sono-de-qualidade",
         "destination": "/posts/7-beneficios-de-um-sono-de-qualidade",
         "type": 301
 },{
-        "source": "https://maceladourada.com.br/7-efeitos-da-poluicao-sobre-a-nossa-pele-e-como-combate-los",
+        "source": "/7-efeitos-da-poluicao-sobre-a-nossa-pele-e-como-combate-los",
         "destination": "/posts/7-efeitos-da-poluicao-sobre-a-nossa-pele-e-como-combate-los",
         "type": 301
 },{
-        "source": "https://maceladourada.com.br/7-segredos-que-o-seu-intestino-esta-querendo-te-contar",
+        "source": "/7-segredos-que-o-seu-intestino-esta-querendo-te-contar",
         "destination": "/posts/7-segredos-que-o-seu-intestino-esta-querendo-te-contar",
         "type": 301
 },{
-        "source": "https://maceladourada.com.br/8-dicas-para-fazer-o-cabelo-crescer-mais-forte-e-rapido",
+        "source": "/8-dicas-para-fazer-o-cabelo-crescer-mais-forte-e-rapido",
         "destination": "/posts/8-dicas-para-fazer-o-cabelo-crescer-mais-forte-e-rapido",
         "type": 301
 },{
-        "source": "https://maceladourada.com.br/8-passos-para-combater-o-estresse-e-melhorar-seu-estilo-de-vida",
+        "source": "/8-passos-para-combater-o-estresse-e-melhorar-seu-estilo-de-vida",
         "destination": "/posts/8-passos-para-combater-o-estresse-e-melhorar-seu-estilo-de-vida",
         "type": 301
 },{
-        "source": "https://maceladourada.com.br/alimentos-que-melhoram-a-saude-do-intestino",
+        "source": "/alimentos-que-melhoram-a-saude-do-intestino",
         "destination": "/posts/alimentos-que-melhoram-a-saude-do-intestino",
         "type": 301
 },{
-        "source": "https://maceladourada.com.br/altilix-detoxificacao-eficaz-e-segura-em-capsulas",
+        "source": "/altilix-detoxificacao-eficaz-e-segura-em-capsulas",
         "destination": "/posts/altilix-detoxificacao-eficaz-e-segura-em-capsulas",
         "type": 301
 },{
-        "source": "https://maceladourada.com.br/beneficios-da-aromaterapia-no-inverno",
+        "source": "/beneficios-da-aromaterapia-no-inverno",
         "destination": "/posts/beneficios-da-aromaterapia-no-inverno",
         "type": 301
 },{
-        "source": "https://maceladourada.com.br/cafe-turbo-a-chave-para-a-vida-turbo",
+        "source": "/cafe-turbo-a-chave-para-a-vida-turbo",
         "destination": "/posts/cafe-turbo-a-chave-para-a-vida-turbo",
         "type": 301
 },{
-        "source": "https://maceladourada.com.br/como-acelerar-o-metabolismo-para-emagrecer-rapido",
+        "source": "/como-acelerar-o-metabolismo-para-emagrecer-rapido",
         "destination": "/posts/como-acelerar-o-metabolismo-para-emagrecer-rapido",
         "type": 301
 },{
-        "source": "https://maceladourada.com.br/como-aumentar-a-performance-mental",
+        "source": "/como-aumentar-a-performance-mental",
         "destination": "/posts/como-aumentar-a-performance-mental",
         "type": 301
 },{
-        "source": "https://maceladourada.com.br/como-conseguir-cabelos-longos-ondulados",
+        "source": "/como-conseguir-cabelos-longos-ondulados",
         "destination": "/posts/como-conseguir-cabelos-longos-ondulados",
         "type": 301
 },{
@@ -256,10 +260,6 @@
 },{
         "source": "https://maceladourada.com.br/por-que-surgem-as-estrias-e-como-trata-las",
         "destination": "/posts/por-que-surgem-as-estrias-e-como-trata-las",
-        "type": 301
-},{
-        "source": "",
-        "destination": "/posts/probioticos-muito-mais-do-que-saude-intestinal",
         "type": 301
 },{
         "source": "https://maceladourada.com.br/probioticos-muito-mais-do-que-saude-intestinal",
