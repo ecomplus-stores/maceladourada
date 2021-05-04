@@ -12,6 +12,11 @@
         "type": 301
       },
       {
+        "source": "https:/macela-dourada",
+        "destination": "/pages/contato",
+        "type": 301
+      },
+      {
         "source": "/fale-conosco",
         "destination": "/pages/contato",
         "type": 301
