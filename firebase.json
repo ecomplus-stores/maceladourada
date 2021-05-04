@@ -2,6 +2,31 @@
   "hosting": {
     "redirects": [
       {
+        "source": "/aplicativo",
+        "destination": "/baixe-o-aplicativo",
+        "type": 301
+      },
+      {
+        "source": "/nossas-lojas",
+        "destination": "/pages/contato",
+        "type": 301
+      },
+      {
+        "source": "/fale-conosco",
+        "destination": "/pages/contato",
+        "type": 301
+      },
+      {
+        "source": "/login",
+        "destination": "/app/#/account/",
+        "type": 301
+      },
+      {
+        "source": "/sobre",
+        "destination": "/pages/sobre-nos",
+        "type": 301
+      },
+      {
         "source": "/6-habitos-que-pioram-a-oleosidade-da-pele",
         "destination": "/posts/06-habitos-que-pioram-a-oleosidade-da-pele",
         "type": 301
