@@ -16,9 +16,9 @@
         {
           "start": "",
           "end": "",
-          "img": "https://res.cloudinary.com/maceladourada/image/upload/v1617974597/mais-saude-articulacao_izx8z8.png",
-          "link": "https://maceladourada.com.br/articulacoes-e-dores",
-          "mobile_img": "https://res.cloudinary.com/maceladourada/image/upload/v1617974597/mais-saude-articulacao-mobile_bkdwk0.png"
+          "img": "/img/uploads/desktop.png",
+          "link": "https://maceladourada.com.br/colagenmax-30-capsulas",
+          "mobile_img": "/img/uploads/mobile.png"
         }
       ]
     },
