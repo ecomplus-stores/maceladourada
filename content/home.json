@@ -26,6 +26,13 @@
           "img": "https://res.cloudinary.com/maceladourada/image/upload/v1617974587/baixe-o-aplicaivo-macela_bwhzhk.png",
           "mobile_img": "https://res.cloudinary.com/maceladourada/image/upload/v1617974588/baixe-app-mobile_wdzw09.png",
           "link": "https://maceladourada.com.br/baixe-o-aplicativo"
+        },
+        {
+          "start": "2021-06-18T21:10:11.083Z",
+          "end": "2021-06-18T21:10:11.156Z",
+          "img": "/img/uploads/desktop_macela_-1-.png",
+          "link": "https://maceladourada.com.br/manipulados",
+          "mobile_img": "/img/uploads/mobile_macela_-1-.png"
         }
       ]
     },
