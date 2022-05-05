@@ -7,6 +7,13 @@
       "autoplay": 9000,
       "slides": [
         {
+          "start": "2022-05-05T14:43:36.010Z",
+          "end": "2022-06-01T02:59:58.599Z",
+          "img": "/img/uploads/promocao_maio_desktop.png",
+          "link": "https://maceladourada.com.br/promocoes",
+          "mobile_img": "/img/uploads/promocao_maio_mobile.png"
+        },
+        {
           "start": "",
           "end": "",
           "img": "/img/uploads/mais-concentracao-foco-desktop.png",
