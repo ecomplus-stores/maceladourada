@@ -19,8 +19,15 @@
           "img": "https://res.cloudinary.com/maceladourada/image/upload/v1617974587/baixe-o-aplicaivo-macela_bwhzhk.png",
           "mobile_img": "https://res.cloudinary.com/maceladourada/image/upload/v1617974588/baixe-app-mobile_wdzw09.png",
           "link": "https://maceladourada.com.br/baixe-o-aplicativo"
+        },
+        {
+          "start": "2022-09-08T15:50:47.747Z",
+          "end": "2022-10-01T02:59:58.383Z",
+          "img": "/img/uploads/banner_largo.png",
+          "mobile_img": "/img/uploads/banner_celular.png"
         }
-      ]
+      ],
+      "full_width": true
     },
     {
       "type": "info-bar",
