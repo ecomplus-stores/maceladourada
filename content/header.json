@@ -1,7 +1,7 @@
 {
   "marketing_stripe": {
-    "text": "Receba um desconto especial!",
-    "link": "https://www.subscribepage.com/cadastromcd",
+    "text": "",
+    "link": "",
     "background": "#083c37",
     "color": "#ffffff"
   },
