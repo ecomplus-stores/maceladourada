@@ -1,11 +1,11 @@
+[build]
+  publish = "publish"
+  functions = "functions-zip"
+
 [[redirects]]
   from = "/composto-natural-para-obesidade-60capsulas"
   to = "/"
   status = 301
-
-[build]
-  publish = "publish"
-  functions = "functions-zip"
 
 [[redirects]]
   from = "/*"
