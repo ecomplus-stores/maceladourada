@@ -1,0 +1,3 @@
+- Review website architecture and optimize
+- Find a mechanism so Manipulados dont require a stock, or at least have a large stock and a function that grabs all and resets the value with a cron
+- Review old unrelevant data / functionality / copy
