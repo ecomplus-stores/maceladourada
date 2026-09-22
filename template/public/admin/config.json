@@ -4,5 +4,37 @@
     "branch": "master",
     "identity_url": "https://gotrue.ecomplus.biz/1201/.netlify/identity",
     "gateway_url": "https://gitgateway.ecomplus.biz/1201/.netlify/git"
-  }
+  },
+  "collections": [
+    {
+      "name": "settings",
+      "files": [
+        {
+          "name": "contacts",
+          "fields": [
+            {
+              "label": "Unidades para orçamento via WhatsApp",
+              "name": "whatsapp_units",
+              "hint": "Unidades exibidas ao cliente no botão \"Solicitar orçamento\" do carrinho",
+              "required": false,
+              "widget": "list",
+              "fields": [
+                {
+                  "label": "Nome da unidade",
+                  "name": "name",
+                  "widget": "string"
+                },
+                {
+                  "label": "WhatsApp",
+                  "name": "whatsapp",
+                  "widget": "string",
+                  "hint": "Com DDD, ex.: (77) 99943-0418"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

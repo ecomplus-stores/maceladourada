@@ -2,14 +2,14 @@
 // a chat opens with the cart items prefilled.
 import ecomCart from '@ecomplus/shopping-cart'
 
-const UNITS = [
-  { name: 'Vitória da Conquista - Matriz', phone: '5577999430418' },
-  { name: 'Vitória da Conquista - Loja II', phone: '5577991629918' },
-  { name: 'Itapetinga', phone: '5577999430116' },
-  { name: 'Jequié', phone: '5573981463883' },
-  { name: 'Ipiaú', phone: '5573991019201' },
-  { name: 'Jaguaquara', phone: '5573988561814' }
-]
+// Units are managed on admin: Configurações > Contatos
+const UNITS = (window._whatsappUnits || [])
+  .map(({ name, whatsapp }) => {
+    let phone = String(whatsapp || '').replace(/\D/g, '')
+    if (phone.length === 10 || phone.length === 11) phone = `55${phone}`
+    return { name, phone }
+  })
+  .filter(({ name, phone }) => name && phone)
 
 const BTN_LABEL = 'Solicitar orçamento'
 // Only the final button on the cart page (/app/#/cart) goes to WhatsApp
@@ -39,6 +39,8 @@ const openChat = unit => {
   window.open(url, '_blank', 'noopener')
 }
 
+const escapeHtml = str => String(str).replace(/[&<>"']/g, c => `&#${c.charCodeAt(0)};`)
+
 let modal
 const openUnitPicker = () => {
   if (!ecomCart.data.items.length) return
@@ -60,7 +62,7 @@ const openUnitPicker = () => {
   <p>Escolha a unidade para enviar seu carrinho pelo WhatsApp:</p>
   ${UNITS.map((unit, i) => `
   <button type="button" class="wa-quote__unit btn btn-outline-success" data-unit="${i}">
-    <i class="fab fa-whatsapp mr-1"></i> ${unit.name}
+    <i class="fab fa-whatsapp mr-1"></i> ${escapeHtml(unit.name)}
   </button>`).join('')}
   <button type="button" class="btn btn-link btn-block wa-quote__close">Cancelar</button>
 </div>`
@@ -91,6 +93,9 @@ ${CHECKOUT_SELECTOR}::after {
 }`
 
 export default () => {
+  // Without units, keep the default checkout
+  if (!UNITS.length) return
+
   // Capture phase so the link never navigates to checkout
   document.addEventListener('click', e => {
     if (e.target.closest(CHECKOUT_SELECTOR)) {
