@@ -1,0 +1,28 @@
+// Prices on E-Com Plus are outdated and orders go through a WhatsApp
+// quotation, so every price, discount and payment info is hidden.
+// Set to false to show prices again.
+$hide-prices: true;
+
+@if $hide-prices {
+  // Price blocks (product cards, product page, sticky buy bar, carousels)
+  .prices,
+  .product-card__prices,
+  .product-card__offer-stamp,
+  .product__prices,
+  .product__discount,
+  .product__payment,
+  .product__track-price,
+  .product__free-shipping-from,
+  .buy-together__discount,
+  // Minicart and cart page totals
+  .minicart__summary,
+  .cart-item__prices,
+  .cart__summary-row,
+  .cart__total,
+  .cart__discount,
+  .discount-applier,
+  // Price range filter on search
+  .search-engine__filter--price {
+    display: none !important;
+  }
+}

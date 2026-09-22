@@ -15,22 +15,12 @@ const BTN_LABEL = 'Solicitar orçamento'
 // Only the final button on the cart page (/app/#/cart) goes to WhatsApp
 const CHECKOUT_SELECTOR = '.cart__btn-checkout'
 
-const formatMoney = value => Number(value || 0)
-  .toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })
-
+// Prices are outdated on the store, so the message lists items only
 const buildMessage = () => {
-  const { items } = ecomCart.data
   const lines = ['Olá! Gostaria de um orçamento para os itens abaixo:', '']
-  let total = 0
-  items.forEach(item => {
-    const price = item.final_price || item.price || 0
-    const subtotal = price * item.quantity
-    total += subtotal
-    lines.push(`• ${item.quantity}x ${item.name}` +
-      (item.sku ? ` (SKU ${item.sku})` : '') +
-      ` - ${formatMoney(subtotal)}`)
+  ecomCart.data.items.forEach(item => {
+    lines.push(`• ${item.quantity}x ${item.name}` + (item.sku ? ` (SKU ${item.sku})` : ''))
   })
-  lines.push('', `Total estimado: ${formatMoney(total)}`)
   return lines.join('\n')
 }
 
