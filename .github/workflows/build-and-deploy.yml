@@ -13,6 +13,7 @@ on:
       - 'firebase.json'
       - '.github/build-and-deploy'
       - '.github/workflows/build-and-deploy.yml'
+  workflow_dispatch:
 
 jobs:
   build-and-deploy:
@@ -56,6 +57,7 @@ jobs:
         run: cd .functions && npm ci --only=production && cd ../..
 
       - name: Check last changed files
+        if: github.event_name == 'push'
         uses: lots0logs/gh-action-get-changed-files@2.2.2
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
@@ -63,7 +65,7 @@ jobs:
 
       - name: Run partial build
         env:
-          CHANGED_FILES: ${{ steps.changed_files.outputs.all }}
+          CHANGED_FILES: ${{ steps.changed_files.outputs.all || '[]' }}
         run: |
           IS_ECOMPLUS_CD=$(node -p "const f = JSON.parse('${CHANGED_FILES}'); f.length === 1 && f[0] === '.ecomplus.cd.json'");
           if [ $IS_ECOMPLUS_CD != false ]; then
@@ -93,12 +95,12 @@ jobs:
 
       - name: Commit local file changes
         continue-on-error: true
-        if: steps.git_diff.outputs.diff == 1
+        if: steps.git_diff.outputs.diff == 1 && github.ref == 'refs/heads/master'
         run: |
           git commit -m 'chore(post-build): update template and content defaults [skip ci]'
 
       - name: Push changes
-        if: steps.git_diff.outputs.diff == 1
+        if: steps.git_diff.outputs.diff == 1 && github.ref == 'refs/heads/master'
         continue-on-error: true
         env:
           REMOTE_REPO: ${{ steps.remote_repo.outputs.url }}
