@@ -82,6 +82,7 @@ const logo = _.settings.logo
   </footer>
 
   <%- await include('@/json', { _ }) %>
+  <script>/*<!--*/<%- `window._whatsappUnits=${JSON.stringify(contacts.whatsapp_units || [])};` %>/*-->*/</script>
   <%- await include('@/scripts') %>
 </body>
 
