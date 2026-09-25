@@ -7,6 +7,8 @@ const RUNS_URL = 'https://api.github.com/repos/ecomplus-stores/maceladourada' +
   '/actions/workflows/build-and-deploy.yml/runs?branch=master&per_page=10'
 const RUNS_PAGE = 'https://github.com/ecomplus-stores/maceladourada/actions/workflows/build-and-deploy.yml'
 const PUBLISH_LABELS = ['Publicar', 'Publicando...', 'Publish', 'Publishing...']
+// Shown instead of the publish button when there are no unsaved changes
+const PUBLISHED_LABELS = ['Publicado', 'Published']
 const RUNNING_STATUSES = ['queued', 'in_progress', 'waiting', 'requested', 'pending']
 const POLL_MS = 15000
 const POLL_RUNNING_MS = 8000
@@ -62,24 +64,33 @@ const computeState = runs => {
   if (last.conclusion === 'success') {
     return {
       status: 'success',
+      label: `✓ No ar · atualizado ${minutesAgo(last.updated_at)}`,
       title: `Site atualizado ${minutesAgo(last.updated_at)}`
     }
   }
   return {
     status: 'failed',
+    label: '⚠ Falhou · publique de novo',
     title: `A última publicação falhou (${minutesAgo(last.updated_at)}). ` +
       `Tente publicar de novo; se continuar falhando, veja ${RUNS_PAGE}`
   }
 }
 
 const findPublishButtons = () => [...document.querySelectorAll('[role="button"], button')]
-  .filter(el => PUBLISH_LABELS.includes(el.textContent.trim()))
+  .filter(el => {
+    const text = el.textContent.trim()
+    return PUBLISH_LABELS.includes(text) || PUBLISHED_LABELS.includes(text)
+  })
 
 const render = () => {
   findPublishButtons().forEach(btn => {
     // CMS is still committing ("Publicando..."), keep its own label
     const isSaving = /\.\.\.$/.test(btn.textContent.trim())
     btn.dataset.deploy = isSaving ? '' : state.status
+    // "Publicado" has nothing to click, so it shows the full status text
+    if (PUBLISHED_LABELS.includes(btn.textContent.trim())) {
+      btn.dataset.deployFull = state.label ? 'true' : ''
+    }
     btn.dataset.deployLabel = state.label || ''
     btn.title = state.title || ''
     if (state.status === 'running') {
@@ -103,24 +114,46 @@ const poll = async () => {
   pollTimer = setTimeout(poll, state.status === 'running' ? POLL_RUNNING_MS : POLL_MS)
 }
 
+// The CMS draws the dropdown caret with ::after (injected later, same
+// specificity), so the status uses ::before with doubled attribute selectors
 const style = `
-[data-deploy="running"] {
+[data-deploy][data-deploy="running"] {
   pointer-events: none !important;
   opacity: .65;
   font-size: 0 !important;
 }
-[data-deploy="running"]::after {
-  content: attr(data-deploy-label);
-  font-size: 14px;
+[data-deploy][data-deploy="running"]::after {
+  display: none !important;
 }
-[data-deploy="failed"]::after {
-  content: " • última falhou";
-  color: #ff6b6b;
+[data-deploy][data-deploy="running"]::before {
+  content: attr(data-deploy-label) !important;
+  font-size: 14px !important;
+}
+[data-deploy][data-deploy="failed"]::before {
+  content: "⚠ falhou · " !important;
+  color: #ffd166 !important;
   font-weight: 700;
 }
-[data-deploy="success"]::after {
-  content: " ✓";
-  color: #3ddc97;
+[data-deploy][data-deploy="success"]::before {
+  content: "✓ " !important;
+  color: #3ddc97 !important;
+  font-weight: 700;
+}
+/* "Publicado" button: full status text, declared last to win ties */
+[data-deploy-full="true"][data-deploy] {
+  font-size: 0 !important;
+  opacity: 1;
+}
+[data-deploy-full="true"][data-deploy]::before {
+  content: attr(data-deploy-label) !important;
+  font-size: 14px !important;
+  color: inherit !important;
+}
+[data-deploy-full="true"][data-deploy="success"]::before {
+  color: #1c9d6b !important;
+}
+[data-deploy-full="true"][data-deploy="failed"]::before {
+  color: #d9534f !important;
 }
 `
 
