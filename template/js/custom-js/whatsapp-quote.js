@@ -12,7 +12,8 @@ const UNITS = (window._whatsappUnits || [])
   .filter(({ name, phone }) => name && phone)
 
 const BTN_LABEL = 'Solicitar orçamento'
-// Only the final button on the cart page (/app/#/cart) goes to WhatsApp
+// Only the final button on the cart page (/app/#/cart) goes to WhatsApp,
+// its label comes from i19checkout in i18n-quote.js
 const CHECKOUT_SELECTOR = '.cart__btn-checkout'
 
 // Prices are outdated on the store, so the message lists items only
@@ -49,7 +50,7 @@ const openUnitPicker = () => {
 </style>
 <div class="wa-quote__box" role="dialog" aria-modal="true" aria-labelledby="wa-quote-title">
   <h5 id="wa-quote-title">${BTN_LABEL}</h5>
-  <p>Escolha a unidade para enviar seu carrinho pelo WhatsApp:</p>
+  <p>Escolha a unidade para enviar seu pedido de orçamento pelo WhatsApp:</p>
   ${UNITS.map((unit, i) => `
   <button type="button" class="wa-quote__unit btn btn-outline-success" data-unit="${i}">
     <i class="fab fa-whatsapp mr-1"></i> ${escapeHtml(unit.name)}
@@ -72,16 +73,6 @@ const openUnitPicker = () => {
   document.body.appendChild(modal)
 }
 
-// Relabel via CSS: Vue owns the button text nodes, so the DOM is left untouched
-const relabelStyle = `
-${CHECKOUT_SELECTOR} {
-  font-size: 0;
-}
-${CHECKOUT_SELECTOR}::after {
-  content: '${BTN_LABEL}';
-  font-size: 1rem;
-}`
-
 export default () => {
   // Without units, keep the default checkout
   if (!UNITS.length) return
@@ -95,17 +86,23 @@ export default () => {
     }
   }, true)
 
-  const style = document.createElement('style')
-  style.textContent = relabelStyle
-  document.head.appendChild(style)
-
   // Any other way into checkout (minicart button, direct URL) lands on the
   // cart page, where the client can keep editing before asking for a quote
   const { storefrontApp } = window
   if (storefrontApp && storefrontApp.router) {
     const guard = () => {
-      if (storefrontApp.router.currentRoute.name === 'checkout') {
+      const { name } = storefrontApp.router.currentRoute
+      if (name === 'checkout') {
         window.location.hash = '#/cart'
+      } else if (name === 'cart') {
+        // Cart title is hardcoded on storefront-app, fix it after render
+        setTimeout(() => {
+          document.title = document.title.replace('Meu carrinho', 'Meu orçamento')
+          const h1 = document.querySelector('#storefront-app h1')
+          if (h1 && h1.firstChild && h1.firstChild.nodeType === Node.TEXT_NODE) {
+            h1.firstChild.nodeValue = h1.firstChild.nodeValue.replace('Meu carrinho', 'Meu orçamento')
+          }
+        }, 50)
       }
     }
     storefrontApp.router.afterEach(guard)
