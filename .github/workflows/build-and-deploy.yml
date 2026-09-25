@@ -15,6 +15,13 @@ on:
       - '.github/workflows/build-and-deploy.yml'
   workflow_dispatch:
 
+# One deploy at a time: a newer publish waits for the running one instead of
+# racing it (an older run finishing last would put stale content live).
+# Only the latest pending run is kept, and it builds master with all changes.
+concurrency:
+  group: deploy-prod
+  cancel-in-progress: false
+
 jobs:
   build-and-deploy:
     name: Build Storefront and deploy
