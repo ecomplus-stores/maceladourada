@@ -1,0 +1,11 @@
+// Shipping calculation is not reliable and shipping is agreed on the
+// WhatsApp quotation, so the CEP calculator is hidden everywhere
+// (product page, cart page and minicart). Set to false to show it again.
+$hide-shipping: true;
+
+@if $hide-shipping {
+  .shipping-calculator,
+  .minicart__shipping {
+    display: none !important;
+  }
+}
