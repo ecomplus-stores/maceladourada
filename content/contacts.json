@@ -1,4 +1,14 @@
 {
+  "whatsapp_units": [
+    {
+      "name": "Vitória da Conquista - Matriz",
+      "whatsapp": "(77) 99943-0418"
+    },
+    {
+      "name": "Vitória da Conquista - Loja II",
+      "whatsapp": "(77) 99162-9918"
+    }
+  ],
   "youtube": "https://www.youtube.com/channel/UCCNqoM1obhe_mVla5gXnZbQ",
   "facebook": "https://www.facebook.com/maceladourada",
   "phone": "(77) 3423-8640",
@@ -8,31 +18,5 @@
   "twitter": "",
   "address": "Av. Otávio Santos, 244, Recreio, Vitória da Conquista, BA",
   "pinterest": "",
-  "email": "vdcmacela@gmail.com",
-  "whatsapp_units": [
-    {
-      "name": "Vitória da Conquista - Matriz",
-      "whatsapp": "(77) 99943-0418"
-    },
-    {
-      "name": "Vitória da Conquista - Loja II",
-      "whatsapp": "(77) 99162-9918"
-    },
-    {
-      "name": "Itapetinga",
-      "whatsapp": "(77) 99943-0116"
-    },
-    {
-      "name": "Jequié",
-      "whatsapp": "(73) 98146-3883"
-    },
-    {
-      "name": "Ipiaú",
-      "whatsapp": "(73) 99101-9201"
-    },
-    {
-      "name": "Jaguaquara",
-      "whatsapp": "(73) 98856-1814"
-    }
-  ]
+  "email": "vdcmacela@gmail.com"
 }
