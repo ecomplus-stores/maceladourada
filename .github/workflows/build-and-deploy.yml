@@ -77,11 +77,14 @@ jobs:
               for i in "${slug[@]}"; do
                 curl -X PURGE "https://$STORE_DOMAIN/$i"
               done;
+              # Home is rendered by SSR (not prerendered) and its shelves list
+              # products, so refresh it on any product change too
+              curl -X PURGE "https://$STORE_DOMAIN/"
               echo "isg=2" >> $GITHUB_OUTPUT;
               exit 0;
             fi
           fi
-          npm run build -- --prerender=index,app/index,search,404,blog,admin/index --prerender-limit=0;
+          npm run build -- --prerender=app/index,search,404,blog,admin/index --prerender-limit=0;
           echo "isg=0" >> $GITHUB_OUTPUT;
         id: partial_build
 
