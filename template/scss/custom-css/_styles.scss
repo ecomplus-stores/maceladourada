@@ -31,3 +31,16 @@
 .header__buttons img {
     height: 93px;
 }
+
+// Small product cards (search popup) place the buy button absolute at the
+// bottom right, sharing a row with the price. With prices hidden and the
+// longer "Adicionar ao orçamento" label it covered the product name, so the
+// button goes below the name instead.
+.product-card--small .product-card__buy {
+  position: relative;
+  bottom: auto;
+  right: auto;
+  margin-top: var(--spacer-2);
+  max-width: 100%;
+  white-space: normal;
+}
